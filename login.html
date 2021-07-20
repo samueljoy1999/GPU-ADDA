@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>LOGIN</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css\main.css">
+        <link rel="stylesheet" href="css\login.css">
+        <script src="library\jquery-3.6.0.min.js"></script>
+        <script src="script\login.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav id="flex-nav">
+            <div class="nav" id="gpu"><a href="main.html" class="nav-a">GPU ADDA</a></div>
+            <div class="nav" id="bar"><a href="shop.html" target="_blank" class="nav-a">SHOP</a></div>
+            <div class="nav" id="bar"><a href="contact.html" target="_blank" class="nav-a">CONTACT US</a></div>
+            <div class="nav" id="bar"><a href="login.html" class="nav-a">LOGIN</a></div>
+            <div id="icons">
+                <a href="#" class="nav-a"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="nav-a"><i class="fa fa-facebook-square"></i></a>
+                <a href="#" class="nav-a"><i class="fa fa-twitter"></i></a>
+            </div>
+        </nav>
+        <!-- Form -->
+        <form action="success.html" id="sub">
+            <!-- <label for="name">Name</label> -->
+            <input type="text" id="name" placeholder="Name">
+            <span id="sp1"></span>
+            <br><br>
+            <!-- <label for="email">Email</label> -->
+            <input type="email" id="email" placeholder="E-mail">
+            <span id="sp2"></span>
+            <br><br>
+            <!-- <label for="mobile">Mobile: </label> -->
+            <input type="text" id="mobile" placeholder="Mobile No.">
+            <span id="sp3"></span>
+            <br><br>
+            <!-- <label for="password">Password: </label> -->
+            <input type="password" id="password" placeholder="Password">
+            <span id="sp4"></span>
+            <br><br>
+            <label id="sp">Show password:
+            <input type="checkbox" id="showp"></label><br>
+            <br><br>
+            <!-- <label for="cpassword">Confirm Password: </label> -->
+            <input type="password" id="cpassword" placeholder="Confirm Password">
+            <span id="sp5"></span>
+            <br><br>
+            <input type="submit" value="Register"><br><br>
+            <input type="reset" value="Reset" id="reset">
+        </form>
+        <footer>
+            <p id="footer-p">Designed by Samuel Joy&copy; 2021</p>
+        </footer>
+    </body>
+</html>

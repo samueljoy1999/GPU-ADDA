@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.menu{
+    position: relative;
+    margin: 40px 500px 40px 230px;
+    width: 910px;
+    height: 700px;
+    background-color: black;
+    padding: 10px;
+    overflow-y: scroll;
+    box-shadow: 15px 15px 10px black;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    height: 100px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f131; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255); 
+    height: 10px;
+  }
+#search{
+    position: absolute;
+    top:10px;
+    right: 20px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+#search:focus{
+    outline: none;
+}
+#search-p{
+    margin-bottom: 8px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+select{
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    width: 150px;
+}
+select:focus{
+    outline: none;
+}
+.flex-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+}
+.product{
+    position: relative;
+    border:2px solid white;
+    padding: 5px;
+}
+.product-img{
+    height: 200px;
+    width: 200px;
+}
+.product-name{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin: 2px 0px 2px 12px;
+}
+.product-price{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 70px;
+}
+#product1:hover,#product2:hover,#product3:hover,#product4:hover,#product5:hover,#product6:hover,#product7:hover,#product8:hover,#product9:hover,#product10:hover,#product11:hover,#product12:hover{
+    transform: scale(0.95,0.95);    
+    z-index: 1;
+}
