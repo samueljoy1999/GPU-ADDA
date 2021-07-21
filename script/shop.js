@@ -1,11 +1,10 @@
 $(function(){
     let namenode = $(".product-name")
     let pricenode = $(".product-price")
-
+    
     // Search Bar Logic
     $("#search").keyup(function(){
         let sval = $(this).val().toLowerCase()
-        
         for(let i=0;i<namenode.length;i++){
             let nh=$(namenode[i]).html().toLowerCase()
             if(!nh.includes(sval)){
