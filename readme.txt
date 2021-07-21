@@ -1,3 +1,5 @@
+Author: Samuel Joy
+
 GPU-ADDA
 
 This project only has front-end (HTML/CSS/jQuery)and little bit of backend (jQuery/JavaScript).
@@ -12,5 +14,15 @@ The page consists of 4 pages (home,shop,contact us,login).
    Here users can browse throgh the products. Here the listed products is displayed through flex (display:flex; flex-direction:row;flex-wrap:wrap)
    Each products have some css property(scale,etc). This page is DYNAMIC i.e. the search bar is realtime, the logic is written in jQuery (shop.js)      
    Even the filter is in realtime, it filters the list from low to high price, high to low, Alphabetical order(A-Z) and reverse(Z-A). The logic for 
-   filter is alsro written in jQuery(shop.js) 
-   There is no particular page for each product since that would be a too much of time consuming task.Here the overflow-y is set to scroll.
+   filter is also written in jQuery(shop.js) 
+   There is no particular page for each product since that would be too much of time consuming task hence the clicking on products won't take you anywhere. 
+   Here the overflow-y is set to scroll.
+
+3. About Us(about.html)
+   This page is very basic it just contains some written materials
+
+4. Login (login.html)
+   This is the login page, this page is backed by validating functions written in jQuery
+
+All the html files are inside the folder (GPU ADDA), all the js files are inside the script folder, jQuery script is inside the library folder and all the images
+are inside the image folder.    
