@@ -24,5 +24,5 @@ The page consists of 4 pages (home,shop,contact us,login).
 4. Login (login.html)
    This is the login page, this page is backed by validating functions written in jQuery
 
-All the html files are inside the folder (GPU ADDA), all the js files are inside the script folder, jQuery script is inside the library folder and all the images
-are inside the image folder.    
+All the html files are inside the folder (GPU ADDA), all the js files are inside the script folder, jQuery script is inside the library folder, all the images
+are inside the image folder and all the CSS files are inside the CSS folder.
