@@ -1,4 +1,4 @@
-Author: Samuel Joy
+_Author: Samuel Joy_
 
 #GPU-ADDA
 
